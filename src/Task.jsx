@@ -6,10 +6,10 @@ export default function Task({ task, onDone }) {
       <td>{task}</td>
 
       <td>
-        <button>
+        <button class='tick'>
           <TickIcon />
         </button>
-        <button onClick={onDone}>
+        <button onClick={onDone} class='bin'>
           <BinIcon />
         </button>
       </td>

@@ -1,4 +1,4 @@
-export default function TickIcon() {
+export default function PlusIcon() {
   return (
     <svg
       xmlns='http://www.w3.org/2000/svg'
@@ -11,7 +11,8 @@ export default function TickIcon() {
       stroke-linecap='round'
       stroke-linejoin='round'
     >
-      <path d='M5 12l5 5l10 -10' />
+      <path d='M12 5l0 14' />
+      <path d='M5 12l14 0' />
     </svg>
   );
 }

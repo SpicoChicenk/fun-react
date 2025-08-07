@@ -6,8 +6,8 @@ export default function BinIcon() {
       height='32'
       viewBox='0 0 24 24'
       fill='none'
-      stroke='#000000'
-      stroke-width='1'
+      stroke='#fff'
+      stroke-width='1.5'
       stroke-linecap='round'
       stroke-linejoin='round'
     >

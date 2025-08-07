@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { createRoot } from "react-dom/client";
 import Task from "./Task";
 import "./style.css";
+import PlusIcon from "./Plus-Icon";
 
 const App = () => {
   const [toDo, setToDo] = useState("");
@@ -31,15 +32,18 @@ const App = () => {
     <div>
       <h1>To-Do List</h1>
       <form onSubmit={handleAddTask}>
-        <label htmlFor='toDo'>What to do?</label>
-        <input
-          type='text'
-          name='toDo'
-          maxLength='32'
-          value={toDo}
-          onChange={(event) => setToDo(event.target.value)}
-        />
-        <input type='submit' value='Add Task' />
+        <div class='to-add-list'>
+          <input
+            type='text'
+            name='toAddList'
+            maxLength='32'
+            value={toDo}
+            onChange={(event) => setToDo(event.target.value)}
+          />
+          <button type='submit' class='plus'>
+            <PlusIcon />
+          </button>
+        </div>
       </form>
 
       <table>

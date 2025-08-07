@@ -1,19 +1,58 @@
-body {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  color: white;
-  background: #159de4;
-  background: linear-gradient(
+:root {
+  --main-bg: #159de4;
+  --gradient-bg: linear-gradient(
     90deg,
     rgba(21, 157, 228, 1) 0%,
     rgba(119, 204, 202, 1) 100%
   );
+  --header-font-colour: #fff;
+  --list-item-colour: #000;
+  --tick-icon-colour: #0dd4a2;
+  --main-icon-colour: #ff6f47;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--header-font-colour);
+}
+
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background: var(--main-bg);
+  background: var(--gradient-bg);
+}
+
+.to-add-list {
+  display: flex;
+  width: 500px;
+}
 .list-item {
-  color: black;
+  color: var(--list-item-colour);
   display: flex;
   background: white;
   width: 500px;
   margin: 5px;
   justify-content: space-between;
+  align-items: center;
+}
+
+.plus,
+.tick,
+.bin {
+  border: none;
+}
+
+.plus {
+  background: var(--main-icon-colour);
+}
+.tick {
+  background: var(--tick-icon-colour);
+}
+
+.bin {
+  background: var(--main-icon-colour);
 }
