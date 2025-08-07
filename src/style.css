@@ -1,0 +1,19 @@
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: white;
+  background: #159de4;
+  background: linear-gradient(
+    90deg,
+    rgba(21, 157, 228, 1) 0%,
+    rgba(119, 204, 202, 1) 100%
+  );
+}
+
+.list-item {
+  color: black;
+  display: flex;
+  background: white;
+  width: 500px;
+  margin: 5px;
+  justify-content: space-between;
+}

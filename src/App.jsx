@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { createRoot } from "react-dom/client";
 import Task from "./Task";
+import "./style.css";
 
 const App = () => {
   const [toDo, setToDo] = useState("");
@@ -28,7 +29,7 @@ const App = () => {
   };
   return (
     <div>
-      <h1>My App</h1>
+      <h1>To-Do List</h1>
       <form onSubmit={handleAddTask}>
         <label htmlFor='toDo'>What to do?</label>
         <input
@@ -40,7 +41,7 @@ const App = () => {
         />
         <input type='submit' value='Add Task' />
       </form>
-      <h2>My Task list</h2>
+
       <table>
         <tbody>
           {taskList.map((task, index) => (
