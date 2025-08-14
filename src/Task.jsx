@@ -1,15 +1,14 @@
 import BinIcon from "./Bin-Icon";
 import TickIcon from "./Tick-Icon";
-export default function Task({ task, onDone }) {
+export default function Task({ task, onDone, onTick }) {
   return (
-    <tr class='list-item'>
-      <td>{task}</td>
-
+    <tr className='list-item'>
+      <td>{task.name}</td>
       <td>
-        <button class='tick'>
+        <button onClick={onTick} className='tick' disabled={task.status}>
           <TickIcon />
         </button>
-        <button onClick={onDone} class='bin'>
+        <button onClick={onDone} className='bin'>
           <BinIcon />
         </button>
       </td>

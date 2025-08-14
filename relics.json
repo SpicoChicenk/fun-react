@@ -1,0 +1,64 @@
+[
+  {
+    "stepNumber": 1,
+    "demiAtma": [
+      {
+        "name": "Verdigris Demiatma",
+        "location": "Kozama'uka or Southwestern O.C",
+        "amountNeeded": 3,
+        "amountGathered": 0
+      },
+      {
+        "name": " Azurite Demiatma",
+        "location": "Urqopacha or Southeastern O.C",
+        "amountNeeded": 3,
+        "amountGathered": 0
+      }
+    ],
+    "weaponType": "Battle"
+  },
+  {
+    "stepNumber": 1,
+    "jobs": [
+      {
+        "name": "Botanist",
+        "cost": 0
+      },
+      {
+        "name": "Miner",
+        "cost": 0
+      }
+    ],
+    "weaponType": "Gather",
+    "location": "Sinos Adorum"
+  },
+  {
+    "stepNumber": 1,
+    "jobs": [
+      {
+        "name": "Culinarian",
+        "cost": 0
+      },
+      {
+        "name": "Weaver",
+        "cost": 0
+      }
+    ],
+    "weaponType": "Craft",
+    "location": "Sinos Adorum"
+  },
+  {
+    "stepNumber": 2,
+    "jobs": [
+      {
+        "name": "Paladin",
+        "cost": 1500
+      },
+      {
+        "name": "Gunbreaker",
+        "cost": 1500
+      }
+    ],
+    "resource": "Tomestone of Mathematics"
+  }
+]
