@@ -4,6 +4,8 @@ import Task from "./Task";
 import "./style.css";
 import PlusIcon from "./Plus-Icon";
 
+import Relic from "./Relic";
+
 const App = () => {
   const [toDo, setToDo] = useState("");
   const [taskList, setTaskList] = useState([]);
@@ -125,7 +127,9 @@ const App = () => {
               ))}
         </tbody>
       </table>
-      <button disabled>Hello</button>
+      <hr />
+      <h1>Battle Relic Tasks</h1>
+      <Relic />
     </div>
   );
 };

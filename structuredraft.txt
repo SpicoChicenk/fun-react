@@ -1,0 +1,175 @@
+[{name:"Make Egg", status: false},
+{name:"Feed Cat", status: true},
+{name:"Dance", status: true}]
+
+{name:String, status:Boolean}
+
+{name: String, status: Boolean, quantity: Number, total: Number, 
+description: String}
+
+{name:"Cleavers", status: false, quantity: 0, total: 1500, 
+description: "Ninja Relic, Tomestone"}
+{name:"Ninja", status: false, quantity: 0, total: 1500,
+description: "Phantom Penumbrae Cleavers, Tomestone"}
+{name:"Tomestone", status: false, quantity: 0, total: 31500,
+description: "Phantom Penumbrae Relic first step"}
+{name:"Phantom Penumbrae Relic first step", status: false, quantity: 0, total: 31500,
+description: "Amount of Tomestone Required" }
+{name:"Verdigris Demiatma", status: false, quantity:0, total: 3, 
+description: "Kozama'uka Fates or Southwestern section of O.C Fates"}
+{name:"Kozama'uka / Southwestern O.C Fates", status: false, quantity: 0, total: 3,
+description: "Verdigris Demiatma Resource"}
+
+
+
+{jobName:String, step: {stepNumber:Number, weaponName: String, cost: Number, resource: String, type:String}}
+[{
+	jobName:"Paladin", 
+	steps: [{
+		stepNumber: 1,
+		weaponName: "Endwalker1",
+		cost: 1500,
+		resource: "Poetics Tomestone",
+		type:"farm"
+		},
+		{
+		stepNumber: 2,
+		weaponName: "Endwalker2",
+		cost: 1500,
+		resource: "Poetics Tomestone",
+		type:"farm"
+		},
+		{
+		stepNumber: 3,
+		weaponName: "Endwalker3",
+		cost: 1500,
+		resource: "Poetics Tomestone",
+		type:"farm"
+		},
+		{
+		stepNumber: 4,
+		weaponName: "Endwalker4",
+		cost: 1500,
+		resource: "Poetics Tomestone",
+		type:"farm"
+		},
+		{
+		stepNumber: 5,
+		weaponName: "Endwalker5",
+		cost: 1500,
+		resource: "Poetics Tomestone",
+		type:"farm"
+		}]
+},
+{
+	jobName:"Gunbreaker", 
+	steps: [{
+		stepNumber: 1,
+		weaponName: "Endwalker1",
+		cost: 1500,
+		resource: "Poetics Tomestone",
+		type:"farm"
+		},
+		{
+		stepNumber: 2,
+		weaponName: "Endwalker2",
+		cost: 1500,
+		resource: "Poetics Tomestone",
+		type:"farm"
+		},
+		{
+		stepNumber: 3,
+		weaponName: "Endwalker3",
+		cost: 1500,
+		resource: "Poetics Tomestone",
+		type:"farm"
+		},
+		{
+		stepNumber: 4,
+		weaponName: "Endwalker4",
+		cost: 1500,
+		resource: "Poetics Tomestone",
+		type:"farm"
+		},
+		{
+		stepNumber: 5,
+		weaponName: "Endwalker5",
+		cost: 1500,
+		resource: "Poetics Tomestone",
+		type:"farm"
+		}]
+}
+]
+
+
+{stepNumber:Number, jobs:[{name:String, cost:Number}], resource:String, type:String }
+
+{
+stepNumber: 1,
+jobs:[
+	{
+	name: "Paladin",
+	cost: 1500
+	},
+	{
+	name: "Gunbreaker",
+	cost: 1500
+	}
+],
+resource: "Poetics Tomestone",
+type: "farm"
+}
+
+
+[{
+	stepNumber: 1,
+	demiAtma: [{
+		name: "Verdigris Demiatma",
+		location: "Kozama'uka or Southwestern O.C",
+		amountNeeded: 3,
+		amountGathered: 0
+		},{
+		name: " Azurite Demiatma",
+		location: "Urqopacha or Southeastern O.C",
+		amountNeeded: 3,
+		amountGathered: 0
+		}],
+	weaponType:"Battle"
+},
+{
+	stepNumber: 1,
+	jobs:[{
+	name:"Botanist",
+	cost: 0
+},{
+	name:"Miner",
+	cost: 0
+}
+],
+	weaponType:"Gather"
+},
+{
+	stepNumber: 1,
+	
+	weaponType:"Craft"
+},
+	stepNumber: 2,
+	jobs:[
+	{
+	name: "Paladin",
+	cost: 1500
+	},
+	{
+	name: "Gunbreaker",
+	cost: 1500
+	}],
+	resource: "Tomestone of Mathematics"
+]
+
+
+
+
+
+
+
+

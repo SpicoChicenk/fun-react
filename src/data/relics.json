@@ -1,0 +1,347 @@
+[
+  {
+    "stepNumber": 1,
+    "demiAtma": [
+      {
+        "name": "Verdigris Demiatma",
+        "location": "Kozama'uka or Southwestern South Horn O.C",
+        "amountNeeded": 3,
+        "amountGathered": 0,
+        "complete": false
+      },
+      {
+        "name": " Azurite Demiatma",
+        "location": "Urqopacha or Southeastern South Horn O.C",
+        "amountNeeded": 3,
+        "amountGathered": 0,
+        "complete": true
+      },
+      {
+        "name": "Malachite Demiatma",
+        "location": "Yak T'el or Western Caves South Horn O.C",
+        "amountNeeded": 3,
+        "amountGathered": 0,
+        "complete": false
+      },
+      {
+        "name": "Realgar Demiatma",
+        "location": "Shaaloani or Northwestern South Horn O.C",
+        "amountNeeded": 3,
+        "amountGathered": 0,
+        "complete": false
+      },
+      {
+        "name": "Caput Mortuum Demiatma",
+        "location": "Heritage Found or Eastern Citadel South Horn O.C",
+        "amountNeeded": 3,
+        "amountGathered": 0,
+        "complete": false
+      },
+      {
+        "name": "Orpiment Demiatma",
+        "location": "Living Memory or Central Plains of South Horn O.C",
+        "amountNeeded": 3,
+        "amountGathered": 0,
+        "complete": false
+      }
+    ],
+    "weaponType": "Battle"
+  },
+  {
+    "stepNumber": 2,
+    "jobs": [
+      {
+        "name": "Sword and Kite Shield",
+        "class": "Paladin",
+        "complete": true
+      },
+      {
+        "name": "Bayonet",
+        "class": "Gunbreaker",
+        "complete": false
+      },
+      {
+        "name": "Bardiche",
+        "class": "Warrior",
+        "complete": false
+      },
+      {
+        "name": "Guillotine",
+        "class": "Dark Knight",
+        "complete": false
+      },
+      {
+        "name": "Crook",
+        "class": "White Mage",
+        "complete": false
+      },
+      {
+        "name": "Star Globe",
+        "class": "Astrologian",
+        "complete": false
+      },
+      {
+        "name": "Codex",
+        "class": "Scholar",
+        "complete": false
+      },
+      {
+        "name": "Pendulums",
+        "class": "Sage",
+        "complete": false
+      },
+      {
+        "name": "Knuckles",
+        "class": "Monk",
+        "complete": false
+      },
+      {
+        "name": "Blade",
+        "class": "Samurai",
+        "complete": false
+      },
+      {
+        "name": "Spear",
+        "class": "Dragoon",
+        "complete": false
+      },
+      {
+        "name": "War Scythe",
+        "class": "Reaper",
+        "complete": false
+      },
+      {
+        "name": "Twinfangs",
+        "class": "Viper",
+        "complete": false
+      },
+      {
+        "name": "Cleavers",
+        "class": "Ninja",
+        "complete": false
+      },
+      {
+        "name": "Terpna",
+        "class": "Dancer",
+        "complete": false
+      },
+      {
+        "name": "Arquebus",
+        "class": "Machinist",
+        "complete": false
+      },
+      {
+        "name": "Harp Bow",
+        "class": "Bard",
+        "complete": false
+      },
+      {
+        "name": "Index",
+        "class": "Summoner",
+        "complete": false
+      },
+      {
+        "name": "Staff",
+        "class": "Black Mage",
+        "complete": false
+      },
+      {
+        "name": "Rapier",
+        "class": "Red Mage",
+        "complete": false
+      },
+      {
+        "name": "Flat Brush",
+        "class": "Pictomancer",
+        "complete": false
+      }
+    ],
+    "cost": 1500,
+    "resource": "Tomestone of Mathematics"
+  },
+  {
+    "stepNumber": [1, 2, 3, 4, 5, 6, 7, 8, 9],
+    "jobs": [
+      {
+        "name": [
+          "Cosmic Hatchet Prototype v0.1",
+          "Cosmic Hatchet Prototype v0.2",
+          "Cosmic Hatchet Prototype v0.3",
+          "Cosmic Hatchet Prototype v0.4",
+          "Cosmic Hatchet Prototype v0.5",
+          "Cosmic Hatchet Prototype v0.6",
+          "Cosmic Hatchet Prototype v0.7",
+          "Cosmic Hatchet Prototype v0.8",
+          "Cosmic Hatchet"
+        ],
+        "class": "Botanist",
+        "type": "Gatherer"
+      },
+      {
+        "name": [
+          "Cosmic Pickaxe Prototype v0.1",
+          "Cosmic Pickaxe Prototype v0.2",
+          "Cosmic Pickaxe Prototype v0.3",
+          "Cosmic Pickaxe Prototype v0.4",
+          "Cosmic Pickaxe Prototype v0.5",
+          "Cosmic Pickaxe Prototype v0.6",
+          "Cosmic Pickaxe Prototype v0.7",
+          "Cosmic Pickaxe Prototype v0.8",
+          "Cosmic Pickaxe"
+        ],
+        "class": "Miner",
+        "type": "Gatherer"
+      },
+      {
+        "name": [
+          "Cosmic Fishing Rod Prototype v0.1",
+          "Cosmic Fishing Rod Prototype v0.2",
+          "Cosmic Fishing Rod Prototype v0.3",
+          "Cosmic Fishing Rod Prototype v0.4",
+          "Cosmic Fishing Rod Prototype v0.5",
+          "Cosmic Fishing Rod Prototype v0.6",
+          "Cosmic Fishing Rod Prototype v0.7",
+          "Cosmic Fishing Rod Prototype v0.8",
+          "Cosmic Fishing Rod"
+        ],
+        "class": "Fisher",
+        "type": "Gatherer"
+      },
+      {
+        "class": "Carpenter",
+        "name": [
+          "Cosmic Saw Prototype v0.1",
+          "Cosmic Saw Prototype v0.2",
+          "Cosmic Saw Prototype v0.3",
+          "Cosmic Saw Prototype v0.4",
+          "Cosmic Saw Prototype v0.5",
+          "Cosmic Saw Prototype v0.6",
+          "Cosmic Saw Prototype v0.7",
+          "Cosmic Saw Prototype v0.8",
+          "Cosmic Saw"
+        ],
+        "type": "Crafter"
+      },
+      {
+        "class": "Blacksmith",
+        "name": [
+          "Cosmic Cross-pein Hammer Prototype v0.1",
+          "Cosmic Cross-pein Hammer Prototype v0.2",
+          "Cosmic Cross-pein Hammer Prototype v0.3",
+          "Cosmic Cross-pein Hammer Prototype v0.4",
+          "Cosmic Cross-pein Hammer Prototype v0.5",
+          "Cosmic Cross-pein Hammer Prototype v0.6",
+          "Cosmic Cross-pein Hammer Prototype v0.7",
+          "Cosmic Cross-pein Hammer Prototype v0.8",
+          "Cosmic Cross-pein Hammer"
+        ],
+        "type": "Crafter"
+      },
+      {
+        "class": "Armorer",
+        "name": [
+          "Cosmic Raising Hammer rototype v0.1",
+          "Cosmic Raising Hammer Prototype v0.2",
+          "Cosmic Raising Hammer Prototype v0.3",
+          "Cosmic Raising Hammer Prototype v0.4",
+          "Cosmic Raising Hammer Prototype v0.5",
+          "Cosmic Raising Hammer Prototype v0.6",
+          "Cosmic Raising Hammer Prototype v0.7",
+          "Cosmic Raising Hammer Prototype v0.8",
+          "Cosmic Raising Hammer"
+        ],
+        "type": "Crafter"
+      },
+      {
+        "class": "Goldsmith",
+        "name": [
+          "Cosmic Mallet Prototype v0.1",
+          "Cosmic Mallet Prototype v0.2",
+          "Cosmic Mallet Prototype v0.3",
+          "Cosmic Mallet Prototype v0.4",
+          "Cosmic Mallet Prototype v0.5",
+          "Cosmic Mallet Prototype v0.6",
+          "Cosmic Mallet Prototype v0.7",
+          "Cosmic Mallet Prototype v0.8",
+          "Cosmic Mallet"
+        ],
+        "type": "Crafter"
+      },
+      {
+        "class": "Leatherworker",
+        "name": [
+          "Cosmic Round Knife Prototype v0.1",
+          "Cosmic Round Knife Prototype v0.2",
+          "Cosmic Round Knife Prototype v0.3",
+          "Cosmic Round Knife Prototype v0.4",
+          "Cosmic Round Knife Prototype v0.5",
+          "Cosmic Round Knife Prototype v0.6",
+          "Cosmic Round Knife Prototype v0.7",
+          "Cosmic Round Knife Prototype v0.8",
+          "Cosmic Round Knife"
+        ],
+        "type": "Crafter"
+      },
+      {
+        "class": "Weaver",
+        "name": [
+          "Cosmic Needle  Prototype v0.1",
+          "Cosmic Needle Prototype v0.2",
+          "Cosmic Needle Prototype v0.3",
+          "Cosmic Needle Prototype v0.4",
+          "Cosmic Needle Prototype v0.5",
+          "Cosmic Needle Prototype v0.6",
+          "Cosmic Needle Prototype v0.7",
+          "Cosmic Needle Prototype v0.8",
+          "Cosmic Needle"
+        ],
+        "type": "Crafter"
+      },
+      {
+        "class": "Alchemist",
+        "name": [
+          "Cosmic Alembic Prototype v0.1",
+          "Cosmic Alembic Prototype v0.2",
+          "Cosmic Alembic Prototype v0.3",
+          "Cosmic Alembic Prototype v0.4",
+          "Cosmic Alembic Prototype v0.5",
+          "Cosmic Alembic Prototype v0.6",
+          "Cosmic Alembic Prototype v0.7",
+          "Cosmic Alembic Prototype v0.8",
+          "Cosmic Alembic"
+        ],
+
+        "type": "Crafter"
+      },
+      {
+        "class": "Culinarian",
+        "name": [
+          "Cosmic Frypan Prototype v0.1",
+          "Cosmic Frypan Prototype v0.2",
+          "Cosmic Frypan Prototype v0.3",
+          "Cosmic Frypan Prototype v0.4",
+          "Cosmic Frypan Prototype v0.5",
+          "Cosmic Frypan Prototype v0.6",
+          "Cosmic Frypan Prototype v0.7",
+          "Cosmic Frypan Prototype v0.8",
+          "Cosmic Frypan"
+        ],
+        "type": "Crafter"
+      }
+    ],
+    "cost": [
+      0,
+      200,
+      500,
+      [700, 300],
+      [1000, 800],
+      [1300, 1200, 500],
+      [1700, 1700, 1100],
+      [2200, 2300, 1700, 700],
+      [2800, 2900, 2300, 1500]
+    ],
+    "resource": ["Type I, Type II, Type III, Type IV"],
+    "weaponType": ["Gatherer", "Crafter"],
+    "location": "Sinus Adorum"
+  }
+]

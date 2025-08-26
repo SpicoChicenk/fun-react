@@ -88,3 +88,17 @@ button:disabled {
 #tasks {
   margin-left: 50px;
 }
+
+.test {
+  display: flex;
+  border: 1px solid black;
+  padding: 10px;
+  justify-content: space-between;
+  width: 700px;
+}
+
+.table-test {
+  margin: auto;
+  border: 1px solid black;
+  width: 700px;
+}
